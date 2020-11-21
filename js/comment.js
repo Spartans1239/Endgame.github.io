@@ -9,7 +9,7 @@ var firebaseConfig = {
   };
   firebase.initializeApp(firebaseConfig);
   
-       
+       showpastcomments();
         //Rootref is the whole database.
         const rootRef = firebase.database().ref();
         //commentsRef is just the pageCountsNode
@@ -49,4 +49,4 @@ var firebaseConfig = {
             })
         }
         //Called when page first opens and also after Submit button click to show all comments for this page.
-        showpastcomments();
+        

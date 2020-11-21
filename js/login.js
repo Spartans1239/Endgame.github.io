@@ -55,10 +55,11 @@ var firebaseConfig = {
 })
 
 function signout(){
-
  auth.signOut();
- alert('Sin Out Successful');
- location.reload("login.html");
+  localStorage.setItem('email','');
+  localStorage.setItem('username','');
+  alert('Sin Out Successful');
+  location.reload("login.html");
 }
     
          

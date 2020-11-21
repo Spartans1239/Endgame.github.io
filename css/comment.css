@@ -4,17 +4,24 @@
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
 body {
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
+}
+.comment-section {
+  background-color: #3a1854;
+  color: white;
 }
 
 /* Sample styling for comments and commenting controls */
 #allcomments {
   width: 90%;
-  margin: 2rem auto;
+  /* margin: 2rem auto; */
   padding: 3%;
-  border: solid 1px gray;
+  /* border: solid 1px gray; */
   border-radius: 10px;
-  box-shadow: 2px 2px 2px silver;
+  /* box-shadow: 2px 2px 2px silver; */
+}
+#txComment {
+  box-shadow: 0 0 9px 3px rgba(0, 0, 0, 0.4);
 }
 
 ul#pastcomments {
@@ -23,23 +30,23 @@ ul#pastcomments {
 
 ul#pastcomments li:before {
   font-family: FontAwesome;
-  content: "\f086";
+  content: "\f007";
   font-size: 24pt;
-  color: gray;
-  margin-left: -42px;
-  padding-right: 10px;
+  color: white;
+  margin-left: 42px;
+  padding-right: 15px;
   position: relative;
   top: 8px;
 }
 
 ul#pastcomments li {
-  margin: 0 0 2em 0;
+  margin: 0 0 1em 0;
   padding: 10px;
 }
 
 ul#pastcomments li span {
   font-size: 80%;
-  color: gray;
+  color: white;
   font-style: italic;
 }
 

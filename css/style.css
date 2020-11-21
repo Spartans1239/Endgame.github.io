@@ -1455,6 +1455,7 @@ ol {
 
 .big-blog-item .blog-thumbnail {
   margin-bottom: 30px;
+  box-shadow: 0 0 9px 3px rgba(0, 0, 0, 0.4);
 }
 
 .big-blog-item .blog-content .top-meta {
@@ -1497,7 +1498,7 @@ ol {
 
 .contact-form textarea {
   line-height: 1.4;
-  height: 156px;
+  height: 120px;
   margin-bottom: 48px;
 }
 

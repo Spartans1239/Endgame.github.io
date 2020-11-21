@@ -38,6 +38,7 @@ var firebaseConfig = {
     email:localStorage.getItem('email'),
     message:message
   });
+  alert('Message Sent Successfully');
   location.reload("register.html");
 
 }
