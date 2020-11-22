@@ -39,6 +39,6 @@ var firebaseConfig = {
     message:message
   });
   alert('Message Sent Successfully');
-  location.reload("register.html");
+  location.reload("contact.html");
 
 }

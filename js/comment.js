@@ -28,6 +28,7 @@ var firebaseConfig = {
                 frompage: location.pathname,
                 when: firebase.database.ServerValue.TIMESTAMP
             });
+            alert("Comment Successful");
               });
 
             //Replace line breaks in comment with br tags.
